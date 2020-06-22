@@ -37,7 +37,6 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 200px;
-    margin: auto;
 }
 
 .search {
@@ -68,6 +67,10 @@ nav {
     flex: 50%;
 }
 
+.text-maroon {
+    color: rgb(189, 66, 66);
+}
+
 .maroon {
     background-color: rgb(189, 66, 66);
 }
@@ -96,5 +99,13 @@ nav {
         justify-content: center;
         align-content: center;
         flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+
     }
 }
