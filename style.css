@@ -63,12 +63,35 @@ nav {
     flex-direction: column;
 }
 
+.lower-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.lower_items {
+    height: 30vh;
+    border: 2px soild red;
+}
+
 .flex-items {
     flex: 50%;
 }
 
+.bg-maroon {
+    background: rgb(236, 97, 97);;
+}
+
+.bg-black {
+    background: black;
+}
+
 .text-maroon {
     color: rgb(189, 66, 66);
+}
+
+.lower-images {
+    width: 30vh;
+    height: 28vh;
 }
 
 .maroon {
