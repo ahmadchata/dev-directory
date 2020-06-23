@@ -69,7 +69,7 @@ nav {
 }
 
 .lower_items {
-    height: 30vh;
+    height: 40vh;
     border: 2px soild red;
 }
 
@@ -89,9 +89,16 @@ nav {
     color: rgb(189, 66, 66);
 }
 
+.lower_items {
+    padding: 1rem;
+    text-align: center;
+}
+
 .lower-images {
-    width: 30vh;
-    height: 28vh;
+    background: url(images/image1.jpg);
+    background-size: cover;
+    width: 35vh;
+    height: 35vh;
 }
 
 .maroon {
@@ -117,11 +124,9 @@ nav {
         width: 20%;
     }
 
-    .flex-container {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-direction: row;
+    .lower_items {
+        padding: 1rem 5rem;
+        text-align: left;
     }
 }
 
@@ -130,5 +135,12 @@ nav {
         display: flex;
         justify-content: space-between;
 
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
     }
 }
