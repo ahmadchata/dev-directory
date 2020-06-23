@@ -13,18 +13,18 @@
 </head>
 
 <body>
-    <header class="maroon header-text px-2 py-2">
+    <header class="maroon px-4 py-2">
         <div>
-            <a href="index.html" class="d-flex text-decoration-none justify-content-center align-items-center mb-2"><img
+            <a href="index.html" class="d-flex text-decoration-none text-light justify-content-center align-items-center mb-2"><img
                     src="images/logo.png" class="logo" alt=logo>
                 <h2 class="ml-2 font-weight-bold">DEVCenter</h2>
             </a>
         </div>
         <nav class="pb-1">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-user"></i>
-            <i class="fas fa-rss"></i>
-            <i class="fas fa-bars"></i>
+            <a href="#"><i class="mr-1 fas fa-search"></i><span class="d-none d-lg-inline">DEVS</span></a>
+            <a href="#"><i class="mr-1 fas fa-user"></i><span class="d-none d-lg-inline">LOGIN</span></a>
+            <a href="#"><i class="mr-1 fas fa-rss"></i><span class="d-none d-lg-inline">BLOG</span></a>
+            <a href="#"><i class="mr-1 fas fa-bars"></i><span class="d-none d-lg-inline">MORE</span></a>
         </nav>
     </header>
     <main>
@@ -32,12 +32,12 @@
             <div
                 class="search-holder w-75 mx-auto text-center justify-content-center align-items-center position-absolute">
                 <h4 class="text-light text-center text-uppercase">DEVCenter...Hire a Dev</h4>
-                <div class="search text-left">
+                <div class="search text-left px-md-4">
                     <label class="text-uppercase text-left m-0" for="search">Search by key word:</label>
                     <form class="d-md-flex" action="index.html">
-                        <input class="w-100 py-2 pl-2 mb-2 border-0 rounded" type="text" placeholder="" name="search">
+                        <input class="w-100 py-2 pl-2 border-0 mb-2 mb-md-0 rounded-left" type="text" placeholder="" name="search">
                         <button type="submit"
-                            class="maroon py-2 text-light search-button border-0 rounded">SEARCH</button>
+                            class="maroon py-2 text-light search-button border-0 rounded-right">SEARCH</button>
                     </form>
                 </div>
                 <button class="border-0 mt-5 rounded py-1 px-2">How it works</button>
@@ -118,9 +118,9 @@
                     <div class="footer_items text-uppercase px-4">
                         <h6 class="font-weight-bold text-light">subscribe</h6>
                         <form class="d-flex" action="index.html">
-                            <input class="w-100 py-2 pl-2 mb-2 border-0 rounded" type="text" placeholder="your@example.com" name="search">
+                            <input class="w-100 py-2 pl-2 border-0 rounded-left" type="text" placeholder="your@example.com" name="search">
                             <button type="submit"
-                                class="maroon py-2 text-light search-button border-0 rounded">SEARCH</button>
+                                class="maroon py-1 px-2 text-light bg-secondary search-button border-0 rounded-right">Send</button>
                         </form>
                     </div>
                     <div class="footer_items text-uppercase px-4">
@@ -135,17 +135,20 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <ul class="d-flex m-0 bg-secondary">
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-facebook-square"></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
+            <div class="d-flex justify-content-between px-3 social-holder align-items-center">
+                <ul class="d-flex m-0 social nav">
+                    <li><a href="#"><i class="px-2 fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="px-2 fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="px-2 fab fa-instagram"></i></a></li>
                 </ul>
+                <div>
+                    <p class="d-flex m-0 small text-secondary">
+                        © 2020 Designed by <a href="https://github.com/ahmadchata">Ahmad Chata.</a>Design idea by <a href="https://www.behance.net/mathewnjuguna">Mathew Njuguna</a>
+                    </p>
+                </div>
             </div>
 
         </footer>
-
-
 </body>
 
 </html>

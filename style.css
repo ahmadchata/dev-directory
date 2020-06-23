@@ -36,13 +36,25 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: gray;
+    text-decoration: none;
 }
 
 .search {
-    background-color: rgb(184, 179, 179);
+    background-color: rgb(201, 197, 197);
     border-radius: 10px;
     padding: 20px 10px;
+    opacity: 90%;
 }
 
 .search-button {
@@ -105,10 +117,6 @@ nav {
     background-color: rgb(189, 66, 66);
 }
 
-.header-text {
-    color: rgb(228, 226, 226);
-}
-
 .logo {
     width: 55px;
     height: 55px;
@@ -122,10 +130,24 @@ footer {
     height: auto;
 }
 
+.social-holder {
+    background-color: rgb(39, 38, 38);
+}
+
+.social > li > a {
+    font-size: 20px;
+    color: gray;
+    list-style-type: none;
+}
+
+.social > li > a:hover {
+    color: rgb(63, 161, 226);
+}
+
 @media only screen and (min-width: 768px) {
     header {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .search-button {
@@ -143,6 +165,10 @@ footer {
         display: flex;
         justify-content: space-between;
 
+    }
+
+    nav {
+        margin: 0;
     }
 
     .flex-container {
