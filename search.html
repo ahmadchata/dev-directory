@@ -33,10 +33,10 @@
             <h5 class="text-muted text-capitalize text-center font-weight-bold">filter by country, langauage and years
                 of experience</h5>
             <div class="">
-                <form class="d-flex justify-content-center bg-info flex-wrap px-5" action="search.html">
-                    <div class="flex-wrap text-left">
-                        <label class="font-weight-bold text-uppercase text-left" for="country">Country:</label>
-                        <select class="d-block"id="country" name="country">
+                <form class="d-flex justify-content-center flex-wrap px-5" action="search.html">
+                    <div class="flex-wrap text-left mr-1">
+                        <label class="font-weight-bold small text-uppercase text-left" for="country">Country:</label>
+                        <select class="py-1 d-block"id="country" name="country">
                             <option value="nigeria">Nigeria</option>
                             <option value="brazil">Brazil</option>
                             <option value="cameroon">Cameroon</option>
@@ -44,9 +44,9 @@
                             <option value="india">India</option>
                         </select>
                     </div>
-                    <div class="flex-wrap text-left">
-                        <label class="font-weight-bold text-uppercase text-left" for="language">Language:</label>
-                        <select class="d-block" id="language" name="language">
+                    <div class="flex-wrap text-left mr-1">
+                        <label class="font-weight-bold small text-uppercase text-left" for="language">Language:</label>
+                        <select class="py-1 d-block" id="language" name="language">
                             <option value="English">English</option>
                             <option value="French">French</option>
                             <option value="Portuguese">Portuguese</option>
@@ -54,17 +54,18 @@
                             <option value="Hindi">Hindi</option>
                         </select></div>
                     <div class="flex-wrap text-left">
-                        <label class="font-weight-bold text-uppercase text-left" for="experience">Years of Experience:</label>
-                        <select class="d-block" id="experience" name="experience">
+                        <label class="font-weight-bold small text-uppercase text-left" for="experience">Years of Experience:</label>
+                        <select class="py-1 d-block" id="experience" name="experience">
                             <option value="none">Less than 1</option>
                             <option value="1year">1 year</option>
                             <option value="2years">2 years</option>
                             <option value="3years">3 years</option>
                             <option value="newbie">Code Newbie</option>
-                        </select></div>
-
-                    <input type="submit" value="Search">
-                    <input type="submit" value="Clear Filter">
+                        </select>
+                    </div>
+                    <div>
+                    <input class="py-0 bg-info border-0"type="submit" value="Search">
+                    <input class="py-0 border-0" type="submit" value="Clear Filter"></div>
                 </form>
             </div>
         </section>
