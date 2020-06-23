@@ -114,6 +114,14 @@ nav {
     height: 55px;
 }
 
+.footer-container {
+    display: none;
+}
+
+footer {
+    height: auto;
+}
+
 @media only screen and (min-width: 768px) {
     header {
         display: flex;
@@ -142,5 +150,41 @@ nav {
         justify-content: center;
         align-content: center;
         flex-direction: row;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .location {
+        font-size: 20px;
+    }
+
+    .footer_items {
+        flex: 1;
+        text-align: center;
+    }
+
+    .footer-link > li {
+        align-content: center;
+        border-top: 1px solid rgb(92, 91, 91);
+        border-bottom: 1px solid rgb(92, 91, 91);
+        padding: 0.7rem 1rem;
+    }
+
+    .round {
+        background: black;
+    }
+
+    .footer-link > li:hover:not(.no_hover) {
+        background: rgb(58, 57, 57);
+        text-decoration: none;
+    }
+
+    .round:hover {
+        background: rgb(58, 57, 57);
     }
 }
