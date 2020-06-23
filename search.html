@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="maroon px-4 py-2">
+        <div>
+            <a href="index.html"
+                class="d-flex text-decoration-none text-light justify-content-center align-items-center mb-2"><img
+                    src="images/logo.png" class="logo" alt=logo>
+                <h2 class="ml-2 font-weight-bold">DEVCenter</h2>
+            </a>
+        </div>
+        <nav class="pb-1">
+            <a href="search.html"><i class="mr-1 fas fa-search"></i><span class="d-none d-lg-inline">DEVS</span></a>
+            <a href="#"><i class="mr-1 fas fa-user"></i><span class="d-none d-lg-inline">LOGIN</span></a>
+            <a href="#"><i class="mr-1 fas fa-rss"></i><span class="d-none d-lg-inline">BLOG</span></a>
+            <a href="#"><i class="mr-1 fas fa-bars"></i><span class="d-none d-lg-inline">MORE</span></a>
+        </nav>
+    </header>
+    <main>
+        <section class="mt-4">
+            <h5 class="text-muted text-capitalize text-center font-weight-bold">filter by country, langauage and years
+                of experience</h5>
+            <div class="">
+                <form class="d-flex justify-content-center bg-info flex-wrap px-5" action="search.html">
+                    <div class="flex-wrap text-left">
+                        <label class="font-weight-bold text-uppercase text-left" for="country">Country:</label>
+                        <select class="d-block"id="country" name="country">
+                            <option value="nigeria">Nigeria</option>
+                            <option value="brazil">Brazil</option>
+                            <option value="cameroon">Cameroon</option>
+                            <option value="pakistan">Pakistan</option>
+                            <option value="india">India</option>
+                        </select>
+                    </div>
+                    <div class="flex-wrap text-left">
+                        <label class="font-weight-bold text-uppercase text-left" for="language">Language:</label>
+                        <select class="d-block" id="language" name="language">
+                            <option value="English">English</option>
+                            <option value="French">French</option>
+                            <option value="Portuguese">Portuguese</option>
+                            <option value="Urdu">Urdu</option>
+                            <option value="Hindi">Hindi</option>
+                        </select></div>
+                    <div class="flex-wrap text-left">
+                        <label class="font-weight-bold text-uppercase text-left" for="experience">Years of Experience:</label>
+                        <select class="d-block" id="experience" name="experience">
+                            <option value="none">Less than 1</option>
+                            <option value="1year">1 year</option>
+                            <option value="2years">2 years</option>
+                            <option value="3years">3 years</option>
+                            <option value="newbie">Code Newbie</option>
+                        </select></div>
+
+                    <input type="submit" value="Search">
+                    <input type="submit" value="Clear Filter">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="pt-2 bg-black px-md-5">
+            <ul class="d-block d-lg-flex nav footer-link text-center justify-content-center mt-2 mt-lg-5">
+                <li><a href="index.html" class="text-uppercase text-decoration-none text-light">home</a></li>
+                <li><a href="search.html" class="text-uppercase text-decoration-none text-light">search</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">about us</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">advertise</a></li>
+                <li class="no_hover"><a href="#"
+                        class="d-none d-lg-inline text-decoration-none text-uppercase text-light border location round rounded-circle p-4"><i
+                            class="fas fa-map-marker-alt"></i></a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">facebook</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">twitter</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">blog</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">google+</a></li>
+            </ul>
+            <div class="footer-container">
+                <div class="footer_items text-uppercase px-4">
+                    <h6 class="font-weight-bold text-light">subscribe</h6>
+                    <form class="d-flex" action="index.html">
+                        <input class="w-100 py-2 pl-2 border-0 rounded-left" type="text" placeholder="your@example.com"
+                            name="search">
+                        <button type="submit"
+                            class="maroon py-1 px-2 text-light bg-secondary search-button border-0 rounded-right">Send</button>
+                    </form>
+                </div>
+                <div class="footer_items text-uppercase px-4">
+                    <h6 class="font-weight-bold text-light">contact</h6>
+                    <p class="text-capitalize small text-light">Have a Question or submission?</p>
+                    <p class="text-lowercase small text-maroon">ahmadchata@gmail.com</p>
+                </div>
+                <div class="footer_items text-uppercase px-4">
+                    <h6 class="font-weight-bold text-light">about</h6>
+                    <p class="text-capitalize small text-light">DEVCenter is a platform that makes it easy to find
+                        developers around the world</p>
+                    <a class="text-capitalize text-maroon small" href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between px-3 social-holder align-items-center">
+            <ul class="d-flex m-0 social nav">
+                <li><a href="#"><i class="px-2 fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="px-2 fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="px-2 fab fa-instagram"></i></a></li>
+            </ul>
+            <div>
+                <p class="d-flex m-0 small text-secondary">
+                    © 2020 Designed by <a href="https://github.com/ahmadchata">Ahmad Chata.</a>Design idea by <a
+                        href="https://www.behance.net/mathewnjuguna">Mathew Njuguna</a>
+                </p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

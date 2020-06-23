@@ -36,7 +36,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 280px;
     margin: 0 auto;
 }
 
@@ -124,10 +124,6 @@ nav > a:hover {
 
 .footer-container {
     display: none;
-}
-
-footer {
-    height: auto;
 }
 
 .social-holder {
