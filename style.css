@@ -134,6 +134,16 @@ nav > a:hover {
     height: 55px;
 }
 
+.details-card {
+    box-shadow: rgb(180, 180, 180) 0 0 10px;
+}
+
+.details-form {
+    border: none;
+    border-bottom: 3px dotted gray;
+    padding: 0.7rem 1rem;
+}
+
 .footer-container {
     display: none;
 }
