@@ -29,19 +29,20 @@
         </nav>
     </header>
     <main>
-        <section class="mt-4">
-            <h5 class="text-muted text-capitalize text-center font-weight-bold">filter by country, langauage and years
-                of experience</h5>
+        <section class="mt-4 bg-gray py-5">
+            <h3 class="text-muted text-capitalize text-center font-weight-bold mb-3">filter by country, langauage and years
+                of experience</h3>
             <div class="">
                 <form class="d-flex justify-content-center flex-wrap px-5" action="search.html">
                     <div class="flex-wrap text-left mr-1">
                         <label class="font-weight-bold small text-uppercase text-left" for="country">Country:</label>
-                        <select class="py-1 d-block"id="country" name="country">
+                        <select class="py-1 d-block" id="country" name="country">
                             <option value="nigeria">Nigeria</option>
                             <option value="brazil">Brazil</option>
                             <option value="cameroon">Cameroon</option>
                             <option value="pakistan">Pakistan</option>
                             <option value="india">India</option>
+                            <option value="india">Uganda</option>
                         </select>
                     </div>
                     <div class="flex-wrap text-left mr-1">
@@ -53,8 +54,8 @@
                             <option value="Urdu">Urdu</option>
                             <option value="Hindi">Hindi</option>
                         </select></div>
-                    <div class="flex-wrap text-left">
-                        <label class="font-weight-bold small text-uppercase text-left" for="experience">Years of Experience:</label>
+                    <div class="flex-wrap text-left mr-1">
+                        <label class="font-weight-bold small text-uppercase text-left" for="experience">Experience:</label>
                         <select class="py-1 d-block" id="experience" name="experience">
                             <option value="none">Less than 1</option>
                             <option value="1year">1 year</option>
@@ -63,10 +64,79 @@
                             <option value="newbie">Code Newbie</option>
                         </select>
                     </div>
-                    <div>
-                    <input class="py-0 bg-info border-0"type="submit" value="Search">
-                    <input class="py-0 border-0" type="submit" value="Clear Filter"></div>
+                    <div class="flex-wrap text-left mr-1">
+                        <div class="pb-1">-</div>
+                        <input class="btn text-light py-1 bg-info border-dark" type="submit" value="Search">
+                        <input class="btn text-light py-1 border-dark bg-warning" type="submit" value="Clear Filter">
+                    </div>
                 </form>
+            </div>
+        </section>
+        <section class="mt-5">
+            <h5 class="text-center">Search Results found 6 Dev(s)</h5>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/roy.jpeg">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Roy Ntaate</h4>
+                                <p class="card-text">Front End Developer from Uganda, pays attention to details, hates light but loves LIGHTBOX. Click card for details.</p>
+                                <a href="details.html" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/ahmad.jpeg">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Ahmad Chata</h4>
+                                <p class="card-text">A Developer from Nigeria, he laughs while coding, coding is funny to him. Click card for details</p>
+                                <a href="details.html" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/lucas.jpeg">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Lucas Delbel</h4>
+                                <p class="card-text">Hard-working Developer from Brazil who doesn't REACT under pressure. Click card for details</p>
+                                <a href="details.html" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/talha.jpeg">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Talha Waqar</h4>
+                                <p class="card-text">A Developer from Pakistan, doesn't laugh much but he is a RUBY. Click card for details</p>
+                                <a href="details.html" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/dipesh.jpeg">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Dipesh Kumar</h4>
+                                <p class="card-text">Indian Developer who loves shooting codes and people in video games, he is <code>code blooded</code></code></p>
+                                <a href="details.html" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="images/emma.jpeg">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Emmanuelle Kamwa</h4>
+                                <p class="card-text">This Cameroonian can't see clearly, she only has eyes for codes. Click card for more details</p>
+                                <a href="details.html" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

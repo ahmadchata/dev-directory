@@ -75,6 +75,18 @@ nav > a:hover {
     flex-direction: column;
 }
 
+.bg-gray {
+    background: rgb(199, 198, 198);
+}
+
+.card {
+    transition: all ease-out 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+} 
+
 .lower-container {
     display: flex;
     flex-direction: column;
