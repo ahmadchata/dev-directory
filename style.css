@@ -211,10 +211,9 @@ nav > a:hover {
     }
 
     .footer-link > li {
-        align-content: center;
         border-top: 1px solid rgb(92, 91, 91);
         border-bottom: 1px solid rgb(92, 91, 91);
-        padding: 0.7rem 1rem;
+        padding: 0.7rem 1rem 0 1rem;
     }
 
     .round {
