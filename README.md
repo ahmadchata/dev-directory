@@ -5,7 +5,7 @@ Microverse HTML/CSS Capstone Project.
 
 ![screenshot](images/screencapture.png)
 
-The DEVCenter is website where you find developers, It has a homepage, search page and details page.
+The DEVCenter is a website where you find developers, It has a homepage, search page and details page.
 The search page can be accessed when you click any of the search buttons, whether in the header or in the footer.
 The details page can be accessed when you click any of the card contained in the search page, It has a sign up and sign in form.
 
