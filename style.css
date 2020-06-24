@@ -1,11 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .background {
-    background:
+  background:
     linear-gradient(
       to bottom,
       rgba(2, 0, 36, 0.3883928571428571) 0%,
@@ -13,229 +13,225 @@
       rgba(0, 0, 0, 1) 100%
     ),
     url(images/background.jpg);
-    height: 30rem;
-    background-position: bottom;
-    background-size: cover;
+  height: 30rem;
+  background-position: bottom;
+  background-size: cover;
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .icon {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    max-width: 300px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 nav > a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 nav > a:hover {
-    color: gray;
-    text-decoration: none;
+  color: gray;
+  text-decoration: none;
 }
 
 .search {
-    background-color: rgb(201, 197, 197);
-    border-radius: 10px;
-    padding: 20px 10px;
-    opacity: 90%;
+  background-color: rgb(201, 197, 197);
+  border-radius: 10px;
+  padding: 20px 10px;
+  opacity: 90%;
 }
 
 .search-button {
-    width: 100%;
+  width: 100%;
 }
 
 .search-holder {
-    top: 60px;
-    left: 0;
-    right: 0;
+  top: 60px;
+  left: 0;
+  right: 0;
 }
 
 .flex-container {
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    align-content: center;
-    flex-direction: column;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
 }
 
 .bg-gray {
-    background: rgb(199, 198, 198);
+  background: rgb(199, 198, 198);
 }
 
 .card {
-    transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
 }
 
 .card:hover {
-    transform: scale(1.1);
-} 
+  transform: scale(1.1);
+}
 
 .lower-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .lower_items {
-    height: 40vh;
-    border: 2px soild red;
+  height: 40vh;
+  border: 2px soild red;
+  padding: 1rem;
+  text-align: center;
 }
 
 .flex-items {
-    flex: 50%;
+  flex: 50%;
 }
 
 .bg-maroon {
-    background: rgb(236, 97, 97);
+  background: rgb(236, 97, 97);
 }
 
 .bg-black {
-    background: black;
+  background: black;
 }
 
 .text-maroon {
-    color: rgb(189, 66, 66);
-}
-
-.lower_items {
-    padding: 1rem;
-    text-align: center;
+  color: rgb(189, 66, 66);
 }
 
 .lower-images {
-    background: url(images/image1.jpg);
-    background-size: cover;
-    width: 35vh;
-    height: 35vh;
+  background: url(images/image1.jpg);
+  background-size: cover;
+  width: 35vh;
+  height: 35vh;
 }
 
 .maroon {
-    background-color: rgb(189, 66, 66);
+  background-color: rgb(189, 66, 66);
 }
 
 .logo {
-    width: 55px;
-    height: 55px;
+  width: 55px;
+  height: 55px;
 }
 
 .details-card {
-    box-shadow: rgb(180, 180, 180) 0 0 10px;
+  box-shadow: rgb(180, 180, 180) 0 0 10px;
 }
 
 .details-form {
-    border: none;
-    border-bottom: 3px dotted gray;
-    padding: 0.7rem 1rem;
+  border: none;
+  border-bottom: 3px dotted gray;
+  padding: 0.7rem 1rem;
 }
 
 .footer-container {
-    display: none;
+  display: none;
 }
 
 .social-holder {
-    background-color: rgb(39, 38, 38);
+  background-color: rgb(39, 38, 38);
 }
 
 .social > li > a {
-    font-size: 20px;
-    color: gray;
-    list-style-type: none;
+  font-size: 20px;
+  color: gray;
+  list-style-type: none;
 }
 
 .social > li > a:hover {
-    color: rgb(63, 161, 226);
+  color: rgb(63, 161, 226);
 }
 
 @media only screen and (min-width: 768px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    nav {
-        display: flex;
-        justify-content: space-between;
-        width: 300px;
-        margin: 0 auto;
-    }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+  }
 
-    .search-button {
-        width: 20%;
-    }
+  .search-button {
+    width: 20%;
+  }
 
-    .lower_items {
-        padding: 1rem 5rem;
-        text-align: left;
-    }
+  .lower_items {
+    padding: 1rem 5rem;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-    header {
-        display: flex;
-        justify-content: space-between;
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    }
+  nav {
+    max-width: 300px;
+    margin: 0;
+  }
 
-    nav {
-        max-width: 300px;
-        margin: 0;
-    }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+  }
 
-    .flex-container {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-direction: row;
-    }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+  }
 
-    .footer-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 4rem;
-    }
+  .location {
+    font-size: 20px;
+  }
 
-    .location {
-        font-size: 20px;
-    }
+  .footer_items {
+    flex: 1;
+    text-align: center;
+  }
 
-    .footer_items {
-        flex: 1;
-        text-align: center;
-    }
+  .footer-link > li {
+    border-top: 1px solid rgb(92, 91, 91);
+    border-bottom: 1px solid rgb(92, 91, 91);
+    padding: 0.7rem 1rem 0 1rem;
+  }
 
-    .footer-link > li {
-        border-top: 1px solid rgb(92, 91, 91);
-        border-bottom: 1px solid rgb(92, 91, 91);
-        padding: 0.7rem 1rem 0 1rem;
-    }
+  .round {
+    background: black;
+  }
 
-    .round {
-        background: black;
-    }
+  .footer-link > li:hover:not(.no_hover) {
+    background: rgb(58, 57, 57);
+    text-decoration: none;
+  }
 
-    .footer-link > li:hover:not(.no_hover) {
-        background: rgb(58, 57, 57);
-        text-decoration: none;
-    }
-
-    .round:hover {
-        background: rgb(58, 57, 57);
-    }
+  .round:hover {
+    background: rgb(58, 57, 57);
+  }
 }
