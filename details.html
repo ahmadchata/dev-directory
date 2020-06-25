@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVCenter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="maroon px-4 py-2">
+        <div>
+            <a href="index.html"
+                class="d-flex text-decoration-none text-light justify-content-center align-items-center mb-2"><img
+                    src="images/logo.png" class="logo" alt=logo>
+                <h2 class="ml-2 font-weight-bold">DEVCenter</h2>
+            </a>
+        </div>
+        <nav class="pb-1 align-items-center">
+            <a href="search.html"><i class="mr-1 fas fa-search"></i><span
+                    class="d-none d-lg-inline mr-2">DEVS</span></a>
+            <a href="#"><i class="mr-1 fas fa-user"></i><span class="d-none d-lg-inline mr-2">LOGIN</span></a>
+            <a href="#"><i class="mr-1 fas fa-rss"></i><span class="d-none d-lg-inline mr-2">BLOG</span></a>
+            <a href="#"><i class="mr-1 fas fa-bars"></i><span class="d-none d-lg-inline">MORE</span></a>
+        </nav>
+    </header>
+    <section class="mb-5 px-4">
+        <h1 class="font-weight-bold text-uppercase pt-2 text-center">Details</h1>
+        <div class="container details-card pt-3 mt-lg-5 rounded">
+            <h5 class="text-uppercase">ahmad chata</h5>
+            <div class="row px-3 py-4">
+                <div class="col-md-6 col-lg-4 border text-center mb-2 py-2">TYPE: <p
+                        class="text-uppercase d-inline text-primary">Full stack developer</p>
+                </div>
+                <div class="col-md-6 col-lg-4 border text-center mb-2 py-2">LANGUAGE: <p
+                        class="text-uppercase d-inline text-primary">English</p>
+                </div>
+                <div class="col-md-6 col-lg-4 border text-center mb-2 py-2">COUNTRY: <p
+                        class="text-uppercase d-inline text-primary">nigeria</p>
+                </div>
+                <div class="col-md-6 col-lg-4 border text-center mb-2 py-2">EXPERIENCE: <p
+                        class="text-uppercase d-inline text-primary">3 Years +</p>
+                </div>
+                <div class="col-md-6 col-lg-4 border text-center mb-2 py-2">E-MAIL: <p
+                        class="text-lowercase d-inline text-primary">ahmadchata@gmail.com</p>
+                </div>
+                <div class="col-md-6 col-lg-4 border text-center mb-2 py-2">GENDER: <p
+                        class="text-uppercase d-inline text-primary">male</p>
+                </div>
+                <div class="col-md-6 col-lg-4 border text-center mb-2 py-2">PERFORMANCE: <p
+                        class="text-uppercase d-inline text-primary">9 / 10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="d-none d-md-block">
+        <h5 class="text-center font-weight-bold">MAP DIRECTIONS</h5>
+        <div class="mx-auto mb-3 map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125884.99295330797!2d6.450422988705988!3d9.603359671952838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104c71b71a3836ef%3A0x6d6e07057bc60d5b!2sMinna!5e0!3m2!1sen!2sng!4v1593087825137!5m2!1sen!2sng" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+    <section>
+        <h5 class="text-center font-weight-bold">REGISTER OR SIGN IN</h5>
+        <div class="mb-3">
+            <form class="w-50 mx-auto" action="search.html">
+                <label class="m-0" for="fname">First Name</label>
+                <input class="w-100 bg-gray details-form" type="text" id="fname" name="firstname"
+                    placeholder="Your name..">
+
+                <label class="m-0" for="lname">Last Name</label>
+                <input class="w-100 bg-gray details-form" type="text" id="lname" name="lastname"
+                    placeholder="Your last name..">
+
+                <label class="m-0" for="email">Email</label>
+                <input class="w-100 bg-gray details-form" type="text" id="email" name="email" placeholder="E-mail..">
+
+                <label class="m-0" for="uname">Username</label>
+                <input class="w-100 bg-gray details-form" type="text" id="uname" name="username"
+                    placeholder="Username..">
+
+                <label class="m-0" for="pword">Password</label>
+                <input class="w-100 bg-gray details-form" type="text" id="pword" name="password"
+                    placeholder="Password..">
+
+                <label class="m-0" for="cword">Confirm Password</label>
+                <input class="w-100 bg-gray details-form mb-2" type="text" id="cword" name="password"
+                    placeholder="Confirm Password..">
+
+                <input class="btn m-0 bg-maroon text-light" type="submit" value="Submit">
+                <input class="btn m-0 text-success" type="submit" value="Sign in">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="pt-2 bg-black px-md-5">
+            <ul class="d-block d-lg-flex nav footer-link text-center justify-content-center mt-2">
+                <li><a href="index.html" class="text-uppercase text-decoration-none text-light">home</a></li>
+                <li><a href="search.html" class="text-uppercase text-decoration-none text-light">search</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">about us</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">advertise</a></li>
+                <li class="no_hover"><a href="#"
+                        class="d-none d-lg-inline text-decoration-none text-uppercase text-light border location round rounded-circle p-4"><i
+                            class="fas fa-map-marker-alt"></i></a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">facebook</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">twitter</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">blog</a></li>
+                <li><a href="#" class="text-uppercase text-decoration-none text-light">google+</a></li>
+            </ul>
+            <div class="footer-container">
+                <div class="footer_items text-uppercase px-4">
+                    <h6 class="font-weight-bold text-light">subscribe</h6>
+                    <form class="d-flex" action="index.html">
+                        <input class="w-100 py-2 pl-2 border-0 rounded-left" type="text" placeholder="your@example.com"
+                            name="search">
+                        <button type="submit"
+                            class="maroon py-1 px-2 text-light bg-secondary search-button border-0 rounded-right">Send</button>
+                    </form>
+                </div>
+                <div class="footer_items text-uppercase px-4">
+                    <h6 class="font-weight-bold text-light">contact</h6>
+                    <p class="text-capitalize small text-light">Have a Question or submission?</p>
+                    <p class="text-lowercase small text-maroon">ahmadchata@gmail.com</p>
+                </div>
+                <div class="footer_items text-uppercase px-4">
+                    <h6 class="font-weight-bold text-light">about</h6>
+                    <p class="text-capitalize small text-light">DEVCenter is a platform that makes it easy to find
+                        developers around the world</p>
+                    <a class="text-capitalize text-maroon small" href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-between px-3 social-holder align-items-center">
+            <ul class="d-flex m-0 social nav">
+                <li><a href="#"><i class="px-2 fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="px-2 fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="px-2 fab fa-instagram"></i></a></li>
+            </ul>
+            <div>
+                <p class="d-flex flex-wrap m-0 small text-secondary">
+                    © 2020 Designed by <a href="https://github.com/ahmadchata">Ahmad Chata.</a>Design idea by <a
+                        href="https://www.behance.net/mathewnjuguna">Mathew Njuguna</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
