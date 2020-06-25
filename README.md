@@ -3,7 +3,7 @@ Microverse HTML/CSS Capstone Project.
 
 > This is a capstone project for HTML/CSS, the aim of this project is to test your knowledge in HTML, CSS, Bootstrap.
 
-![screenshot](images/screencapture.png)
+![screenshot](images/screenshot.png)
 
 The DEVCenter is a website where you find developers, It has a homepage, search page and details page.
 The search page can be accessed when you click any of the search buttons, whether in the header or in the footer.
