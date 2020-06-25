@@ -21,6 +21,10 @@ The details page can be accessed when you click any of the card contained in the
 
 [Live Demo Link](https://raw.githack.com/ahmadchata/dev-directory/homepage/index.html)
 
+## Video
+
+[Video Link](https://www.loom.com/share/1b7a67832ea74a2c84ba3253a7f44c2e)
+
 ## Author
 
 👤 **Ahmad Chata**
