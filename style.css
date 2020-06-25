@@ -139,6 +139,7 @@ nav > a:hover {
   border: none;
   border-bottom: 3px dotted gray;
   padding: 0.7rem 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer-container {
