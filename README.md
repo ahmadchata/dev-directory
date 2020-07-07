@@ -39,7 +39,7 @@ Contributions, issues and feature requests are welcome! Start by:
 
 - Forking the project
 - Cloning the project to your local machine
-- `cd` into the Youtube-Replica project directory
+- `cd` into the project directory
 - Run `git checkout -b your-branch-name`
 - Make your contributions
 - Push your branch up to your forked repository
